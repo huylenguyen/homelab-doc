@@ -42,3 +42,22 @@ Now run `qm set <VM_ID> -scsi<PORT_NUMBER> /dev/disk/by-id/<DRIVE-PATH>`, replac
 13. Finally, in Users -> Users create a new user to access the SMB share from. Save and apply settings. After this, you should be able to see the new filesystem on your network and access it with the new user credentials.
 
 [**TODO**] In the OMV console, run `wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash` to install OMV-Extras - This lets us install `mergerfs` and `SnapRAID` later on when we have multiple drives. For now we only have one drive, so we'll skip this.
+
+## **Services**
+
+**Media Server**
+- Folder Structure
+- Radarr
+- Sonarr
+- Prowlarr (indexer)
+- Overseer (tracker manager)
+- Deluge with VPN (bitTorrent client)
+- Vidcoderr (transcoding media to smaller files)
+- Plex
+
+**Other services**
+- Dashboard
+- Wger (workout tracker)
+- Mealie (recipe manager)
+- Leantime (project management)
+
