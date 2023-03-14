@@ -22,6 +22,8 @@ While the Xorg problem was solved by following the forum post, the bootloader pr
 
 However, note that installing Proxmox this way did not seem to have configured the initial logical volumes correctly - I only had a root and swap partition set up, and the data partition was missing from LVM. Not a big problem, since I have an additional SSD to run the VMs on.
 
+After the installation has finished, you can run post-install scripts from [here](https://tteck.github.io/Proxmox/). The recommended ones are Post Install, CPU Governor, and Dark Theme.
+
 ## **NAS**
 The steps to install **OpenMediaVault** as a VM are as follows:
 
